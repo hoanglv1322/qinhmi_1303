@@ -218,8 +218,8 @@ a:active {
   width: 90%;
   height: 150px;
   max-width: calc(95vw - 30px);
-  left: 40px;
-  top: 10px;
+  left: 1rem;
+  top: 1rem;
   border: 2px solid white;
   border-radius: 10px;
   font-size: 20px;
