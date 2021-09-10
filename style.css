@@ -322,7 +322,7 @@ section .text-container h2 span.text9{
 .swiper-slide img {
   display: block;
   width: 100%;
-  min-height:40rem;
+  height:800px;
   object-fit: cover;
 }
 
