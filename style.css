@@ -42,7 +42,7 @@ body{
   display: flex;
   flex-direction: column;
   position: relative;
-
+  overflow: hidden;
 }
 
 /* --------------header------------------*/
@@ -304,10 +304,10 @@ section .text-container h2 span.text9{
 .slider-img-family{
   position: relative;
   width: 100%;
-  height: auto;
+  height: 850px;
 }
 
-.swiper {
+.slider-img-family .swiper {
   width: 100%;
   height: 850px;
   position: absolute;
@@ -315,22 +315,50 @@ section .text-container h2 span.text9{
   top: 5%;
 }
 
-.swiper-slide {
+.slider-img-family .swiper-slide {
   background-position: center;
   background-size: cover;
 }
 
-.swiper-slide img {
+.slider-img-family .swiper-slide img {
   display: block;
   width: 100%;
   height:800px;
   object-fit: cover;
 }
 
-.swiper-slide .text-descript{
+.slider-img-family .swiper-slide .text-descript{
    position: absolute;
    text-align: center;
    bottom: 50px;
    width: 100%;
    background-color: #fff;
+}
+
+
+/*------------------------------------ slider-img-her--------------------------------------- */
+.slider-img-her{
+  position: relative;
+  width: 100%;
+  height: 600px;
+}
+
+.slider-img-her .swiper {
+  width: 100%;
+  padding-top: 3%;
+  padding-bottom: 50px;
+}
+
+.slider-img-her .swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 500px;
+  height: 500px;
+}
+
+.slider-img-her .swiper-slide img {
+  display: block;
+  width: 100%;
+  height:500px;
+  object-fit: cover;
 }
