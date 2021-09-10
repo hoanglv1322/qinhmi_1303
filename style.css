@@ -187,8 +187,6 @@ section {
   width: 100%;
   background-color: #0e0e0e;
   overflow: hidden;
-  margin-bottom: 2rem;
-  
 }
 
 section .text-container{
@@ -298,4 +296,40 @@ section .text-container h2 span.text9{
                   0 0 40px #ff3177,
                 
   }
+}
+
+
+/* slider-img------------------- */
+
+.slider-img-family{
+  position: relative;
+  width: 100%;
+}
+
+.swiper {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  left: 0;
+  top: 5%;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  min-height:40rem;
+  object-fit: cover;
+}
+
+.swiper-slide .text-descript{
+   position: absolute;
+   text-align: center;
+   bottom: 0;
+   width: 100%;
+   background-color: #fff;
 }
