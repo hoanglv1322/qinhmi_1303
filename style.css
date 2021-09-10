@@ -193,7 +193,7 @@ section {
 
 section .text-container{
     position: absolute;
-    top: 50%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -205,9 +205,9 @@ section .text-container h2{
       text-transform: uppercase;
       font-weight: 900;
       color: #151515;
-      font-size: 2rem;
+      font-size: 3rem;
       line-height: 1.5;
-      letter-spacing: 1px;
+      letter-spacing: 15px;
 }
 
 section .text-container h2 span{
@@ -220,27 +220,35 @@ section .text-container h2 span{
 
 
 section .text-container h2 span.text2{
-  animation-delay: 2.5s;
+  animation-delay: 2s;
 }
 
 section .text-container h2 span.text3{
-  animation-delay: 5s;
+  animation-delay: 4s;
 }
 
 section .text-container h2 span.text4{
-  animation-delay: 7.5s;
+  animation-delay: 6s;
 }
 
 section .text-container h2 span.text5{
-  animation-delay: 10s;
+  animation-delay: 8s;
 }
 
 section .text-container h2 span.text6{
-  animation-delay: 12.5s;
+  animation-delay: 10s;
 }
 
 section .text-container h2 span.text7{
-  animation-delay: 15s;
+  animation-delay: 12s;
+}
+
+section .text-container h2 span.text8{
+  animation-delay: 14s;
+}
+
+section .text-container h2 span.text9{
+  animation-delay: 16s;
 }
 
 
@@ -259,8 +267,7 @@ section .text-container h2 span.text7{
     text-shadow: 0 0 10px rgb(135, 216, 29),
                   0 0 20px rgb(135, 216, 29),
                   0 0 40px rgb(135, 216, 29),
-                  0 0 80px rgb(135, 216, 29),
-                  0 0 160px rgb(135, 216, 29);
+                 
   }
 
   55%, 65%, 75%, 85%, 95%
@@ -269,10 +276,19 @@ section .text-container h2 span.text7{
     text-shadow: 0 0 10px rgb(219, 109, 19),
                 0 0 20px  rgb(219,109,19),
                 0 0 40px  rgb(219,109,19),
-                0 0 80px  rgb(219,109,19),
-                0 0 160px  rgb(219,109,19);
+                
 
   }
+
+  12%, 24%, 36%, 48%, 58%
+  {
+    color: rgb(59, 236, 15);
+    text-shadow: 0 0 10px #10caebb6,
+                  0 0 20px #10caebb6,
+                  0 0 40px #10caebb6,
+                  
+  }
+
 
   10%, 30%, 50%, 70%, 90%
   {
@@ -280,7 +296,6 @@ section .text-container h2 span.text7{
     text-shadow: 0 0 10px #ff3177,
                   0 0 20px #ff3177,
                   0 0 40px #ff3177,
-                  0 0 80px #ff3177,
-                  0 0 160px #ff3177;
+                
   }
 }

@@ -2,4 +2,32 @@
     .container-app{
         display: block;
     }
+    section .text-container{
+        left:55%;
+        top: 50%;
+    }
+
+    section .text-container h2{
+        letter-spacing: 1px;
+        font-size: 2rem;
+        line-height: 1.6;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 1024px){
+
+    section{
+        height: 50rem;
+    }
+    
+    section .text-container h2{
+        font-size: 2.5rem;
+        letter-spacing: 4px;
+    }
+
+    section .text-container{
+        left:53%;
+        top: 43%;
+    }
 }
